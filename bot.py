@@ -51,4 +51,3 @@ def handle_message(message):
         bot.reply_to(message, f"發生錯誤：{str(e)}")
 
 bot.polling()
-```
